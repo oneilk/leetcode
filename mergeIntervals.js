@@ -5,8 +5,6 @@
 
 var merge = function(intervals) {
 	let sortedIntervals;
-    let map = new Map();
-    let checkedIntervals = new Map();
     let mergedIntervals = [];
 
     // test case: [[2,3],[4,5],[6,7],[8,9],[1,10]]
